@@ -3,9 +3,9 @@
 
 type MyAwaited<T extends Promise<unknown>> = 
 T extends Promise<infer U> ? 
-U extends Promise<infer K>? MyAwaited<U> : U
- : never
+    U extends Promise<infer K> ? MyAwaited<U> : U
+    : never;
 
-type ExampleType = Promise<Promise<Promise<string>>>
+type ExampleType = Promise<Promise<Promise<string>>>;
 
-type Result2 = MyAwaited<ExampleType> // string
+type Result2 = MyAwaited<ExampleType>; // string

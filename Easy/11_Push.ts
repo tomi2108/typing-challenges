@@ -1,5 +1,5 @@
 // Implement the generic version of Array.push
 
-type Push<T extends any[], U> = [...T, U]
+type Push<T extends any[], U> = [...T, U];
 
-type Result = Push<[1, 2], '3'> // [1, 2, '3']
+type Result5 = Push<[1, 2], "3">; // [1, 2, '3']

@@ -1,0 +1,23 @@
+{
+  "name": "type-challenges",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomi2108/typing-challenges.git"
+  },
+  "scripts": {
+    "lint":"eslint . --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomi2108/typing-challenges/issues"
+  },
+  "homepage": "https://github.com/tomi2108/typing-challenges#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "eslint": "^8.34.0"
+  }
+}
